@@ -6,10 +6,10 @@ import { map } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
-export class CharactersApiService {
+export class ComicsApiService  {
   PUBLIC_KEY = 'acbf4dbbcf80e7d68391ee5b05379771';
   HASH = '6692EC9A8461802C7E79B11A66D5CF81';
-  URL_API = `https://gateway.marvel.com:443/v1/public/characters?apikey=${this.PUBLIC_KEY}&hash=${this.HASH}`;
+  URL_API = `https://gateway.marvel.com:443/v1/public/comics?apikey=${this.PUBLIC_KEY}&hash=${this.HASH}`;
 
   constructor(private http: HttpClient) { }
 

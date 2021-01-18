@@ -1,4 +1,29 @@
+.bk-card {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
 img.mat-card-image {
-  min-height: 374px;
-  max-height: 374px;
+  min-height: 350px;
+  max-height: 350px;
+}
+
+.name-character {
+  font-family: sans-serif;
+  color: #504a4a;
+}
+
+.btn-character {
+  background-color: #e23636; 
+  color: white;
+  font-family: sans-serif;
+  background-image: -webkit-linear-gradient(45deg, #f78f3f 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #f78f3f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.btn-character:hover {
+  background-position: 0;
 }

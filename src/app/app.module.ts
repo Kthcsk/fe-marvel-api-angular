@@ -14,13 +14,17 @@ import { CharacterComponent } from './characters/character/character.component';
 import { CharactersComponent } from './characters/characters.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ComicsComponent } from './comics/comics.component';
+import { ComicsElementComponent } from './comics/comics-element/comics-element.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CharacterComponent,
-    CharactersComponent
+    CharactersComponent,
+    ComicsComponent,
+    ComicsElementComponent,
   ],
   imports: [
     BrowserModule,
